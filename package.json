@@ -1,0 +1,23 @@
+{
+  "name": "sqlitetest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack-cli build --node-env production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.21.0",
+    "@babel/preset-typescript": "^7.21.5",
+    "babel-loader": "^9.1.2",
+    "babel-plugin-transform-typescript-metadata": "^0.3.2",
+    "webpack": "^5.82.0",
+    "webpack-cli": "^5.0.2"
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.6"
+  }
+}
